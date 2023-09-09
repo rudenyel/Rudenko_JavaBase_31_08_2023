@@ -7,7 +7,6 @@ public class Main {
         double longitude = -74.044444;
         char degrees = '\u00B0';
 
-
         System.out.println(location + ":");
         System.out.println("latitude " + latitude + ", longitude " + longitude);
         System.out.println("DMS: "
