@@ -105,13 +105,10 @@ public class Main {
 
         if (fragsCT > fragsT) {
             System.out.println("Team " + teamCT + " wins with average" + (double) fragsCT / teamsPlayers + " points!");
+        } else if (fragsCT < fragsT) {
+            System.out.println("Team " + teamT + " wins with average" + (double) fragsT / teamsPlayers + " points!");
         } else {
-            if (fragsCT < fragsT) {
-                System.out.println("Team " + teamT + " wins with average" + (double) fragsT / teamsPlayers + " points!");
-            } else {
-                System.out.println("Fight, there is no draw in this game!");
-            }
+            System.out.println("Fight, there is no draw in this game!");
         }
     }
-
 }
