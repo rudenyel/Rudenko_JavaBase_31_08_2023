@@ -32,7 +32,6 @@ public class Main {
 
         int countApprovedID = 0;
         while (countApprovedID <= amountShuttles) {
-
             int number = currentID;
             boolean isMisticDigit = false;
             do {

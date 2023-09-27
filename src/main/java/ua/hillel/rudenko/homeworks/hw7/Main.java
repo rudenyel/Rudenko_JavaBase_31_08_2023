@@ -60,6 +60,7 @@ public class Main {
             System.out.print("Try again! ");
             count++;
         }
+
         System.out.println("Joke's on you, loser)");
     }
 }
