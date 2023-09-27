@@ -34,7 +34,7 @@ public class Main {
             System.exit(0);
         }
 
-        if ((min < 0) || (max < 0) || (attempts < 0) || (max < min)) {
+        if ((min < 0) || (max < 0) || (attempts < 3) || (max < min)) {
             System.out.println("Incorrect input!");
             System.exit(0);
         }
