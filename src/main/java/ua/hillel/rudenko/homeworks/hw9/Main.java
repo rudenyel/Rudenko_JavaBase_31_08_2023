@@ -36,7 +36,7 @@ public class Main {
             System.exit(0);
         }
 
-        if ((minAge < 0) || (maxAge < 0) || (playersAmount < 3) || (maxAge < minAge)) {
+        if ((minAge < 0) || (maxAge < 0) || (playersAmount < 0) || (maxAge < minAge)) {
             System.out.println("Incorrect input!");
             System.exit(0);
         }
