@@ -2,6 +2,7 @@ package ua.hillel.rudenko.homeworks.hw9;
 
 import java.util.Arrays;
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
