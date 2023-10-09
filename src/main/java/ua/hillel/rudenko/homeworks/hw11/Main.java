@@ -54,7 +54,6 @@ public class Main {
         }
 
         System.out.println();
-
         System.out.println("Second array");
         for (int[] row : secondArray) {
             for (int element : row) {
