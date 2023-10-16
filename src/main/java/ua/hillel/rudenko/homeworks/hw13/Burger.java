@@ -1,11 +1,11 @@
 package ua.hillel.rudenko.homeworks.hw13;
 
 public class Burger {
-    protected String name;
-    protected int bun;
-    protected int meat;
-    protected int sauce;
-    protected int salad;
+    private String name;
+    private int bun;
+    private int meat;
+    private int sauce;
+    private int salad;
 
     protected Burger(String name, int bun, int meat, int sauce, int salad) {
         this.name = name;
@@ -21,4 +21,3 @@ public class Burger {
         return name + " ingredients: " + bun + " bun, " + meat + " meat, " + sauce + " sauce, "  + salad + " salad";
     }
 }
-
