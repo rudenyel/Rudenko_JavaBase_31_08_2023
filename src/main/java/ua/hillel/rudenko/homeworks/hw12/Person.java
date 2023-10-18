@@ -14,4 +14,9 @@ public class Person {
 
             return firstName + " " + lastName + " from " + location + " can be reached at " + phone;
         }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
+}
