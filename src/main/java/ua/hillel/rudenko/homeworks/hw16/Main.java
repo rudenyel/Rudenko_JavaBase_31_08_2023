@@ -5,6 +5,7 @@ import ua.hillel.rudenko.homeworks.hw16.os.IOS;
 import ua.hillel.rudenko.homeworks.hw16.smartphones.Smartphones;
 import ua.hillel.rudenko.homeworks.hw16.smartphones.Xiaomi;
 import ua.hillel.rudenko.homeworks.hw16.smartphones.IPhone;
+
 public class Main {
     public static void main(String[] args) {
         Smartphones[] smartphones = {
@@ -13,6 +14,7 @@ public class Main {
             new IPhone("iPhone 14"),
             new IPhone("iPhone 14 Pro")
         };
+        
         for (Smartphones smartphone:  smartphones) {
             smartphone.call();
             smartphone.sms();
