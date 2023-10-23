@@ -13,7 +13,7 @@ public class Burger {
         this.meat = meat;
         this.sauce = sauce;
         this.salad = salad;
-        System.out.println(toString());
+        System.out.println(this);
     }
 
     @Override
