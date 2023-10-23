@@ -13,11 +13,6 @@ public class Xiaomi extends Smartphone implements Smartphones, Android {
     }
 
     @Override
-    public String getSourceCode() {
-        return "Source code: https://android.googlesource.com";
-    }
-
-    @Override
     public void call() {
         justWork();
         Smartphones.super.call();
@@ -33,5 +28,10 @@ public class Xiaomi extends Smartphone implements Smartphones, Android {
     public void internet() {
         justWork();
         Smartphones.super.internet();
+    }
+
+    @Override
+    public String getSourceCode() {
+        return "Source code: https://android.googlesource.com";
     }
 }
