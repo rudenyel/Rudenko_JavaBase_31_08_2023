@@ -9,7 +9,7 @@ public class Xiaomi extends Smartphone implements Smartphones, Android {
 
     @Override
     public void justWork() {
-        System.out.print(getModel() + " working... ");
+        System.out.print(getModel() + " working. ");
     }
 
     @Override
