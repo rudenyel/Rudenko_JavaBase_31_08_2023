@@ -9,7 +9,7 @@ public class IPhone extends Smartphone implements Smartphones, IOS  {
 
     @Override
     public void wowEffect() {
-        System.out.print("Wow, " + getModel() + " ! It's cool! ");
+        System.out.print("Wow, " + getModel() + "! It's cool! ");
     }
 
     @Override
