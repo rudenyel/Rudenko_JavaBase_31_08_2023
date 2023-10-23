@@ -20,8 +20,5 @@ public class Burger {
     public String toString() {
         return name + " ingredients: " + bun + " bun, " + meat + " meat, " + sauce + " sauce, "  + salad + " salad";
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ed4c433e04fe8ae8ee96f736f46665d92fcfd6a8
+
